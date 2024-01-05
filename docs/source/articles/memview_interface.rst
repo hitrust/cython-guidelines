@@ -4,7 +4,7 @@ Try not to return typed memoryviews
 ===================================
 
 Typed memoryviews are the recommended way to quickly accessing array data in Cython.
-However, they are usually not what the users of your function want::
+However, they are usually not what the users want for their functions::
 
     import numpy as np
 
