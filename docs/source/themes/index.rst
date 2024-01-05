@@ -12,7 +12,7 @@ from Python (use ``def``) or designed to be used only from Cython (perhaps use `
 your interface correctly.
 
 ``cdef public`` attributes on classes (which are turned into properties) are
-*often* a sign of the the same problem (although not universally).
+*often* a sign of the same problem (although not universally).
 
 If you're using C++ classes it's also worth thinking "do I need to expose these to Python".
 Your life will probably be simpler if you don't have to write ``cdef class`` wrappers for
